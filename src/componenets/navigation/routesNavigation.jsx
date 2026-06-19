@@ -1,3 +1,4 @@
+// Rutas de navegación a la que se redirige dentro de la app.
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
