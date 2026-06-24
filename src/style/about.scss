@@ -69,7 +69,11 @@
             padding: 3.1rem;
         }
 
-        
-
     }
 } 
+
+.container_proyects{
+    display: flex;
+    flex-direction: column;
+    // gap: 5rem;
+}
