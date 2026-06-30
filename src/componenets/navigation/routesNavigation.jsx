@@ -8,7 +8,7 @@ import Auth from "../pages/auth/auth";
 import Blog from "../pages/blog/blog";
 import Portfolio from "../pages/portfolio/portfolio";
 import NoMatch from "../pages/no-match";
-import About from "../pages/about/about";
+import About from "../pages/home/sections/aboutMe";
 
 export default function RoutesNavigation({state, changeState}) {
 

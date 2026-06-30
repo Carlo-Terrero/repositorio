@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import HomeItems from "./homeItems/homeItems";
+import HomeItems from "./sections/proyects";
+import About from "./sections/aboutMe";
+import Contact from "../contact/contact";
 
 const Home = () => {
 
     const [ portfolioList, setPortfolioList] = useState([])
 
+        // Esto se encargara de cogerlo del back
         // useEffect(()=>{
         //     axios.get("https://carlosterrero.devcamp.space/portfolio/portfolio_items")
         //         .then(response => {
@@ -18,7 +21,13 @@ const Home = () => {
         // },[])
 
     return(
-        <HomeItems list={portfolioList} />
+        <>
+            <About />
+              
+            <HomeItems list={portfolioList} />
+
+            {/* <Contact /> */}
+        </>
     );
 }
 

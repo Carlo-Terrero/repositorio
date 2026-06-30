@@ -1,8 +1,6 @@
 .auth-page-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // height: calc(56vh - 50px);
-    // height: calc(100vh - 83px);
 
     .left-column {
         background-size: cover;
@@ -42,7 +40,6 @@
 
         .left-column {
             width: auto;
-            // height: 400px;
         }
     
         .right-column h1{            

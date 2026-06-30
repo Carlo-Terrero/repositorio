@@ -6,7 +6,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 const Navigation = ({state, changeState}) => {
 
     const navigationArray = [
-        {state: true, path:"/about-me", name:"About me"},
+        // {state: true, path:"/about-me", name:"About me"},
         {state: true, path:"/contact", name:"Contact"},
         {state: state, path:"/blog", name:"Blog"},
         {state: state, path:"/portfolio", name:"Portfolio"},
@@ -40,7 +40,7 @@ const Navigation = ({state, changeState}) => {
             </div> 
 
             <div className="right-side ">
-                CARLOS JOSÉ TERRERO MÉNDEZ
+                CARLOS TERRERO
             
                 {
                     state ? <div className="icon" > 
