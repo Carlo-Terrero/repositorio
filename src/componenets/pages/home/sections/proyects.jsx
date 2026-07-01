@@ -27,26 +27,30 @@ const HomeItems = (props) => {
                 Proyectos
             </h2>
 
-            {listelement.map(element => (
-                <div key={element.id} className="auth-page-wrapper home-page-wrapper">
-                    <div className="left-column">
-                        <img className="image-proyect" src={element.img}/>
+            <div className="containers_cars">
+
+            
+                {listelement.map(element => (
+                    <div key={element.id} className="cards_proyects">
+                        <div className="card_img">
+                            <img className="image-proyect" src={element.img}/>
+                        </div>
+                        
+                        <div className="card_data">
+                            <h2 className="card_title">{element.name}</h2>
+
+                            <div className="card_subtitle">{element.description}</div>
+
+                            {
+                                element.url != null ?
+                                <button className="btn btn-home" onClick={() => handleLink(element.url) }>Visitar web</button> :
+                                false
+                            }
+                        </div>
+
                     </div>
-                    
-                    <div className="right-column right-column-home">
-                        <h2>{element.name}</h2>
-
-                        <div className="subtitle">{element.description}</div>
-
-                        {
-                            element.url != null ?
-                            <button className="btn btn-home" onClick={() => handleLink(element.url) }>Visitar web</button> :
-                            false
-                        }
-                    </div>
-
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     )
 }
