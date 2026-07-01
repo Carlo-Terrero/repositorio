@@ -10,7 +10,7 @@ const HomeItems = (props) => {
     const {list} = props;
     const listelement = [
         {id: 1, name: "Portfolio", img: portfolio, description: "Es mi actual carta de presentación, contiene varios de los proyecto que he hecho por cuenta propia. Al ser de mis primeros poryectos siempre esta en cambio continuo.", url: null},
-        {id: 2, name: "Gesto de Imagenes", img: gestorImg, description: "Esta app se conecta con la API de imagenes unsplash, las imagenes que guardas se quedan en el local storage, las cuales puedes descargar, por elemplo.", url: "https://gestor-fotos-oxygen-git-main-carlo-terrero.vercel.app/"},
+        {id: 2, name: "Gesto de Imagenes", img: gestorImg, description: "Esta app se conecta con la API de imagenes unsplash, las imagenes que guardas se quedan en el local storage, las cuales puedes descargar, por elemplo.", url: "https://gestor-fotos-oxygen.vercel.app/"},
         {id: 3, name: "Api Hotel Miranda", img: apiImg, description: "Api creada en Node.js con BBDD NoSQL (MongoDB). Proporciona información desde endpoint publicos y privados. Estos ultimos utilizados por el dashboard.", url: "https://github.com/Carlo-Terrero/api-hotel-miranda"},
         {id: 4, name: "Oxygen Shop", img: oxigen_shop, description: "Maquetación de pagina web para tienda de productos informáticos. Desarrollada con el propósito de implementar las habilidades adquiridas hasta ese entonces.", url: "https://carlo-terrero.github.io/Oxygen-Shop/"},
     ]
